@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Col from "../Col";
 import DataTable from "./datatable";
+import Progress from "../progressBar";
 
 class mainDash extends Component {
     render() {
@@ -15,22 +16,21 @@ class mainDash extends Component {
                     </div>
 
                     <div className="row my-4">
-                        <div className="col-sm-8">hello</div>
+                        <div className="col-md-8"> Chart goes in here </div>
                         
                         <div className="col-md-4">
-                            <div className="row align-items-center">
+                            <div className="row no-gutters align-items-center">
                                 <div className="col-md-12 my-1 orders-tab">
-                                    <div className="">
                                         <h4>Orders</h4>
+                                        <Progress />
                                         <p>Pending Orders: <span className="yellow-text font-weight-bold">20</span> </p>
                                         <p>Reconsile Orders: <span className="green-text font-weight-bold">80</span> </p>
                                         <p>Total Orders: <span className="blue-text font-weight-bold">100</span> </p>
-
-                                    </div>
                                 </div>
                                 
                                 <div class="col-md-12 my-1 payments-tab">
                                     <h4>Payment</h4>
+                                    <Progress />
                                     <p>Un-reconsiled Payments: <span className="yellow-text font-weight-bold">20</span> </p>
                                     <p>Reconsile Payments: <span className="green-text font-weight-bold">80</span> </p>
                                     <p>Total Payments: <span className="blue-text font-weight-bold">100</span> </p>
@@ -41,7 +41,7 @@ class mainDash extends Component {
 
                     <div className="row my-4">
                         <div className="col-sm-12 bg-white">
-                            <h2 clss>Payments</h2>
+                            <h2>Payments</h2>
                             <DataTable />
                         </div>
                     </div>

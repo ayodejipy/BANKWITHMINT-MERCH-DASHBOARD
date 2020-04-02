@@ -486,19 +486,23 @@ class datatable extends Component {
                 {id: "2", value: "Reconsiled" }, 
                 {id: "3", value: "Unreconsiled" }, 
                 {id: "4", value: "Settled" }, 
-                {id: "5", value: "unettled" },
+                {id: "5", value: "unsettled" },
             ],
             selectedValue: ''
         };
     }
-
+    
     filterRecord = (e) => {
         let { value } = e.target;
         // this.setState({ selectedValue: e.target.value });
-
-        console.log(this.state.selectedValue);
-        console.log("You selected this:", value);
+        this.setState({ selectedValue:value }, () => this.filterWithStatus());
     };
+
+    filterWithStatus = () => {
+        this.setState( prevState => {
+            
+        });
+    }
 
     render() {
         // const { status } = this.state;
@@ -519,6 +523,7 @@ class datatable extends Component {
                     bordered
                     hover
                     data={this.state}
+                    className="no-gutters"
                     /> 
             </>
         );

@@ -7,13 +7,13 @@ class dashboard extends Component {
     render() {
         return (
             <>
-                <section class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-2 sidebar"> 
+                <section className="container-fluid">
+                    <div className="row">
+                        <div className="col-md-2 sidebar"> 
                             <Sidebar />
                         </div>
 
-                        <div class="col-md-10">
+                        <div className="col-md-10">
                             <ContentArea />
                         </div>
                     </div>

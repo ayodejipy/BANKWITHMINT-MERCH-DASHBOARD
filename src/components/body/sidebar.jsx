@@ -12,15 +12,15 @@ class sidebar extends Component {
         return (
             <>
                 <div className="cta--btn">
-                    <button class="gen-invoice">GENERATE INVOICE</button>
+                    <button className="gen-invoice">GENERATE INVOICE</button>
                 </div>
 
-                <nav class="quick--link">
+                <nav className="quick--link">
                     <div className="sub-links">
                         <label>Main</label>
-                        <ul class="quick--link-list">
+                        <ul className="quick--link-list">
                             <li>
-                                <Img src={overview} desc={"Dashboard"} />
+                                <Img src={overview} desc={"Dashboard"} className={"quick--link-icon"} />
                                 <a href="http://google.com">Overview</a>
                             </li>
                         </ul>
@@ -28,21 +28,21 @@ class sidebar extends Component {
 
                     <div className="sub-links">
                         <label>Payments</label>
-                        <ul class="quick--link-list">
+                        <ul className="quick--link-list">
                             <li>
-                                <Img src={wallet} desc={"All Payments"} />
+                                <Img src={wallet} desc={"All Payments"} className={"quick--link-icon"} />
                                 <a href="http://google.com">All Payments</a>
                             </li>
                             <li>
-                                <Img src={Reconsile} desc={"Reconciled Payments"} />
+                                <Img src={Reconsile} desc={"Reconciled Payments"} className={"quick--link-icon"} />
                                 <a href="http://google.com">Reconciled Payments</a>
                             </li>
                             <li>
-                                <Img src={Unreconsile} desc={"Un - Reconciled Payments"} />
+                                <Img src={Unreconsile} desc={"Un - Reconciled Payments"} className={"quick--link-icon"} />
                                 <a href="http://google.com">Un - Reconciled Payments</a>
                             </li>
                             <li>
-                                <Img src={Manual} desc={"Manual Settlement"} />
+                                <Img src={Manual} desc={"Manual Settlement"} className={"quick--link-icon"} />
                                 <a href="http://google.com">Manual Settlement</a>
                             </li>
                         </ul> 
@@ -50,26 +50,26 @@ class sidebar extends Component {
 
                     <div className="sub-links">
                         <label>Orders</label>
-                        <ul class="quick--link-list">
+                        <ul className="quick--link-list">
                             <li>
-                                <Img src={wallet} desc={"All Orders"} />
+                                <Img src={wallet} desc={"All Orders"} className={"quick--link-icon"} />
                                 <a href="http://google.com">All Orders</a>
                             </li>
                             <li>
-                                <Img src={Reconsile} desc={"Pending Orders"} />
+                                <Img src={Reconsile} desc={"Pending Orders"} className={"quick--link-icon"} />
                                 <a href="http://google.com">Pending Orders</a>
                             </li>
                             <li>
-                                <Img src={Unreconsile} desc={"Reconciled Orders"} />
+                                <Img src={Unreconsile} desc={"Reconciled Orders"} className={"quick--link-icon"} />
                                 <a href="http://google.com">Reconciled Orders</a>
                             </li>
                         </ul> 
                     </div>
 
                     <div className="sub-links">
-                        <ul class="quick--link-list">
+                        <ul className="quick--link-list">
                             <li>
-                                <Img src={Profile} desc={"Merchant Profile"} />
+                                <Img src={Profile} desc={"Merchant Profile"} className={"quick--link-icon"} />
                                 <a href="http://google.com">Merchant Profile</a>
                             </li>
                         </ul>
