@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 import Header from "./components/header";
-import Dashboard from "./components/dashboard";
+import DashboardWrapper from "./components/dashboardWrap";
 
 function App() {
   return (
     <div class="merch-dashbaord">
       <Header />
-      <Dashboard />
+      <DashboardWrapper />
     </div>
   );
 }

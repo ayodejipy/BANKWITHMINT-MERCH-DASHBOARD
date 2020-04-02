@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Col from "../Col";
-import DataTable from "../body/datatable";
+import DataTable from "./datatable";
 
 class mainDash extends Component {
     render() {
@@ -18,14 +18,22 @@ class mainDash extends Component {
                         <div className="col-sm-8">hello</div>
                         
                         <div className="col-md-4">
-                            <div className="row no-gutters align-items-center">
-                                <div className="col mr-2">
-                                    <div className="text-xs mb-1"> jdbjdjdjd</div>
-                                    <div className="h6 text-gray-800"> djkvsbdsvsdvsb </div>
+                            <div className="row align-items-center">
+                                <div className="col-md-12 my-1 orders-tab">
+                                    <div className="">
+                                        <h4>Orders</h4>
+                                        <p>Pending Orders: <span className="yellow-text font-weight-bold">20</span> </p>
+                                        <p>Reconsile Orders: <span className="green-text font-weight-bold">80</span> </p>
+                                        <p>Total Orders: <span className="blue-text font-weight-bold">100</span> </p>
+
+                                    </div>
                                 </div>
                                 
-                                <div class="col">
-                                    xhsdcdhdbdhj
+                                <div class="col-md-12 my-1 payments-tab">
+                                    <h4>Payment</h4>
+                                    <p>Un-reconsiled Payments: <span className="yellow-text font-weight-bold">20</span> </p>
+                                    <p>Reconsile Payments: <span className="green-text font-weight-bold">80</span> </p>
+                                    <p>Total Payments: <span className="blue-text font-weight-bold">100</span> </p>
                                 </div>
                             </div>
                         </div>

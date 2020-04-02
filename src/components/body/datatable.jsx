@@ -487,14 +487,16 @@ class datatable extends Component {
                 {id: "3", value: "Unreconsiled" }, 
                 {id: "4", value: "Settled" }, 
                 {id: "5", value: "unettled" },
-            ]
+            ],
+            selectedValue: ''
         };
     }
 
     filterRecord = (e) => {
-        let value = e.target.value;
+        let { value } = e.target;
+        // this.setState({ selectedValue: e.target.value });
 
-        // console.log(e.target.value);
+        console.log(this.state.selectedValue);
         console.log("You selected this:", value);
     };
 
@@ -509,7 +511,7 @@ class datatable extends Component {
                 onChange={this.filterRecord}>
 
                     {this.state.status.map((status, index) => 
-                    <option key={status.id} value={status}> {status} </option> )}
+                    <option key={index} value={status.value}> {status.value} </option> )}
                 </select>
 
                 <MDBDataTable

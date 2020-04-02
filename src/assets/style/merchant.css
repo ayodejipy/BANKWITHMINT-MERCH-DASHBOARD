@@ -14,11 +14,9 @@ html, body {
     height: 100%;
     background-color: var(--body-bg) !important;
     margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .flex {
@@ -152,6 +150,7 @@ img.quick--link-icon {
     vertical-align: middle;
     margin-right: 15px;
     align-items: center;
+    width: 18px;
 }
 
 /* CONTENT AREA */
@@ -192,4 +191,23 @@ img.quick--link-icon {
     width: auto;
     max-width: 100%;
 }
+
+.orders-tab, .payments-tab {
+    background-color: var(--s-white);
+    padding: 1.3rem 1rem;
+}
+
+.orders-tab h4, 
+.payments-tab h4 {
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+.orders-tab p, 
+.payments-tab p {
+    margin: 0;
+    font-size: 0.85rem;
+}
+
+
 /* CONTENT AREA */
