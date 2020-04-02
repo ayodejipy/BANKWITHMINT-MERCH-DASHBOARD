@@ -523,7 +523,6 @@ class datatable extends Component {
                     bordered
                     hover
                     data={this.state}
-                    className="no-gutters"
                     /> 
             </>
         );
