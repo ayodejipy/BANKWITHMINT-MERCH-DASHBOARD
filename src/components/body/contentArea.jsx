@@ -19,7 +19,7 @@ class mainDash extends Component {
                         <div className="col-md-8"> Chart goes in here </div>
                         
                         <div className="col-md-4">
-                            <div className="row no-gutters align-items-center">
+                            <div className="row align-items-center">
                                 <div className="col-md-12 my-1 orders-tab">
                                         <h4>Orders</h4>
                                         <Progress />
