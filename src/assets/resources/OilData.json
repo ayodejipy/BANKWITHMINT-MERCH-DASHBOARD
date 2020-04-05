@@ -1,15 +1,14 @@
 {
-        // Chart Configuration
-        
+   
         "chart": {
             "caption": "",
             "subCaption": "",
             "xAxisName": "",
             "yAxisName": "",
             "numberSuffix": "",
-            "theme": "fusion",
+            "theme": "fusion"
         },
-        // Chart Data
+
         "data": [{
             "label": "Venezuela",
             "value": "290"
