@@ -136,7 +136,7 @@ nav > ul > li {
     left: 0;
     overflow-x: hidden;
     overflow-y: auto;
-    background: #1a1a1a;
+    background: var(--s-white);
     color: #fff;
   }
   
@@ -165,15 +165,13 @@ nav > ul > li {
     line-height: 20px;
   }
   
-  .sidebar-navigation li a {
+  /* .sidebar-navigation li a {
     padding: 10px 15px 10px 30px;
     display: block;
     color: #fff;
-  }
+  } */
   
-  .sidebar-navigation li .fa {
-    margin-right: 10px;
-  }
+
   
   .sidebar-navigation li a:active,
   .sidebar-navigation li a:hover,
@@ -182,7 +180,7 @@ nav > ul > li {
     outline: none;
   }
   
-  .sidebar-navigation li::before {
+  .sidebar-navigation li a:active {
     background-color: #2574A9;
     position: absolute;
     content: '';
@@ -208,6 +206,10 @@ nav > ul > li {
   
   .sidebar-navigation .header::before {
     background-color: transparent;
+  }
+
+  .content-wrapper {
+      padding-left: 220px;
   }
 
 .cta--btn {
@@ -240,7 +242,7 @@ nav > ul > li {
 nav > .sub-links > ul.quick--link-list > li {
     display: block;
     width: 100%;
-    padding: 0;
+    padding: 0 10px;
     margin: 4px 0;
 }
 
@@ -320,6 +322,11 @@ img.quick--link-icon {
     margin: 0;
     font-size: 0.85rem;
 }
+
+.table.dataTable thead {
+    background-color: #EAEEF0;
+}
+
 
 
 /* CONTENT AREA */

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Col from "../Col";
 import DataTable from "./datatable";
 import Progress from "../progressBar";
+import Chart from "./Chart";
 
 class mainDash extends Component {
     render() {
@@ -16,7 +17,9 @@ class mainDash extends Component {
                     </div>
 
                     <div className="row my-4">
-                        <div className="col-md-8"> Chart goes in here </div>
+                        <div className="col-md-8"> 
+                            <Chart />
+                        </div>
                         
                         <div className="col-md-4">
                             <div className="row align-items-center">
@@ -28,7 +31,7 @@ class mainDash extends Component {
                                         <p>Total Orders: <span className="blue-text font-weight-bold">100</span> </p>
                                 </div>
                                 
-                                <div class="col-md-12 my-1 payments-tab">
+                                <div className="col-md-12 my-1 payments-tab">
                                     <h4>Payment</h4>
                                     <Progress />
                                     <p>Un-reconsiled Payments: <span className="yellow-text font-weight-bold">20</span> </p>
@@ -40,8 +43,8 @@ class mainDash extends Component {
                     </div>
 
                     <div className="row my-4">
-                        <div className="col-sm-12 bg-white">
-                            <h2>Payments</h2>
+                        <div className="col-sm-12">
+                            <h2 className="my-2">Payments</h2>
                             <DataTable />
                         </div>
                     </div>

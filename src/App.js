@@ -5,7 +5,7 @@ import DashboardWrapper from "./components/dashboardWrap";
 
 function App() {
   return (
-    <div class="merch-dashbaord">
+    <div className="merch-dashbaord">
       <Header />
       <DashboardWrapper />
     </div>

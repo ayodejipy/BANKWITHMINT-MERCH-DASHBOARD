@@ -1,46 +1,83 @@
 import React, { Component } from 'react';
-import bell from "../../assets/illustrations/bell.svg";
-import user from "../../assets/illustrations/user.svg";
+import overview from "../../assets/illustrations/dashboard.svg";
+import wallet from "../../assets/illustrations/wallet.svg";
+import Reconsile from "../../assets/illustrations/wallet-rc.svg";
+import Unreconsile from "../../assets/illustrations/wallet-notrc.svg";
+import Manual from "../../assets/illustrations/manual.svg";
+import Profile from "../../assets/illustrations/profile.svg";
+import Img from "../Image";
 
 class navs extends Component {
-    render() {
+  render() {
         return (
             <div className="sidebar-container">
-  <div className="sidebar-logo">
-    Project Name
-  </div>
-  <ul className="sidebar-navigation">
-    <li className="header">Navigation</li>
-    <li>
-      <a href="#">
-        <i className="fa fa-home" aria-hidden="true"></i> Homepage
-      </a>
-    </li>
-    <li>
-      <a href="#">
-        <i className="fa fa-tachometer" aria-hidden="true"></i> Dashboard
-      </a>
-    </li>
-    <li className="header">Another Menu</li>
-    <li>
-      <a href="#">
-        <i className="fa fa-users" aria-hidden="true"></i> Friends
-      </a>
-    </li>
-    <li>
-      <a href="#">
-        <i className="fa fa-cog" aria-hidden="true"></i> Settings
-      </a>
-    </li>
-    <li>
-      <a href="#">
-        <i className="fa fa-info-circle" aria-hidden="true"></i> Information
-      </a>
-    </li>
-  </ul>
-</div>
+              <div className="cta--btn">
+                    <button className="gen-invoice">GENERATE INVOICE</button>
+                </div>
+
+                <nav className="quick--link">
+                    <div className="sub-links">
+                        <label>Main</label>
+                        <ul className="quick--link-list sidebar-navigation">
+                            <li>
+                                <Img src={overview} desc={"Dashboard"} className={"quick--link-icon"} />
+                                <a href="http://google.com">Overview</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div className="sub-links">
+                        <label>Payments</label>
+                        <ul className="quick--link-list sidebar-navigation">
+                            <li>
+                                <Img src={wallet} desc={"All Payments"} className={"quick--link-icon"} />
+                                <a href="http://google.com">All Payments</a>
+                            </li>
+                            <li>
+                                <Img src={Reconsile} desc={"Reconciled Payments"} className={"quick--link-icon"} />
+                                <a href="http://google.com">Reconciled Payments</a>
+                            </li>
+                            <li>
+                                <Img src={Unreconsile} desc={"Un - Reconciled Payments"} className={"quick--link-icon"} />
+                                <a href="http://google.com">Un - Reconciled Payments</a>
+                            </li>
+                            <li>
+                                <Img src={Manual} desc={"Manual Settlement"} className={"quick--link-icon"} />
+                                <a href="http://google.com">Manual Settlement</a>
+                            </li>
+                        </ul> 
+                    </div>
+
+                    <div className="sub-links">
+                        <label>Orders</label>
+                        <ul className="quick--link-list">
+                            <li>
+                                <Img src={wallet} desc={"All Orders"} className={"quick--link-icon"} />
+                                <a href="http://google.com">All Orders</a>
+                            </li>
+                            <li>
+                                <Img src={Reconsile} desc={"Pending Orders"} className={"quick--link-icon"} />
+                                <a href="http://google.com">Pending Orders</a>
+                            </li>
+                            <li>
+                                <Img src={Unreconsile} desc={"Reconciled Orders"} className={"quick--link-icon"} />
+                                <a href="http://google.com">Reconciled Orders</a>
+                            </li>
+                        </ul> 
+                    </div>
+
+                    <div className="sub-links">
+                        <ul className="quick--link-list">
+                            <li>
+                                <Img src={Profile} desc={"Merchant Profile"} className={"quick--link-icon"} />
+                                <a href="http://google.com">Merchant Profile</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
         );
-    }
+  }
 }
 
 
