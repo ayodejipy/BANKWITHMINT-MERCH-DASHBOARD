@@ -16,14 +16,14 @@ class mainDash extends Component {
                         <Col heading={"Total Transaction Value"} value={"4,000,000"} />
                     </div>
 
-                    <div className="row my-4">
-                        <div className="col-md-8"> 
+                    <div className="row my-4 h-100">
+                        <div className="col-md-8 bg-white"> 
                             <Chart />
                         </div>
                         
                         <div className="col-md-4">
-                            <div className="row align-items-center">
-                                <div className="col-md-12 my-1 orders-tab">
+                            <div className="d-flex flex-column h-100">
+                                <div className="mb-1 orders-tab">
                                         <h4>Orders</h4>
                                         <Progress />
                                         <p>Pending Orders: <span className="yellow-text font-weight-bold">20</span> </p>
@@ -31,7 +31,7 @@ class mainDash extends Component {
                                         <p>Total Orders: <span className="blue-text font-weight-bold">100</span> </p>
                                 </div>
                                 
-                                <div className="col-md-12 my-1 payments-tab">
+                                <div className="mt-1 payments-tab ">
                                     <h4>Payment</h4>
                                     <Progress />
                                     <p>Un-reconsiled Payments: <span className="yellow-text font-weight-bold">20</span> </p>

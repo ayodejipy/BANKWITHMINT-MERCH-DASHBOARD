@@ -327,6 +327,22 @@ img.quick--link-icon {
     background-color: #EAEEF0;
 }
 
+.btn {
+    margin: 0 .3rem !important;
+    box-shadow: none !important;
+}
+
+button.previous-tab,
+button.next-tab {
+    display: inline-block;
+    background: linear-gradient(0deg, #ced4da);
+	border: 1px solid #ced4da;
+	border-radius: 3px;
+	color: #ced4da;
+	font-size: 12px;
+	padding: 5px 15px;
+	cursor: pointer;
+}
 
 
 /* CONTENT AREA */

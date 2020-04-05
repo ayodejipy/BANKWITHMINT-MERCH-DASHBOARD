@@ -11,8 +11,40 @@ const chartConfigs = {
     type: 'area2d',// The chart type
     width: '100%', // Width of the chart
     height: '100%', // Height of the chart
-    dataFormat: 'jsonurl', // Data type
-    dataSource: 'https://github.com/ayodejipy/BANKWITHMINT-MERCH-DASHBOARD/blob/master/src/assets/resources/OilData.json',
+    showlabels: "0",
+    dataFormat: 'json', // Data type
+    dataSource: {
+   
+        "chart": {
+            "caption": "",
+            "subCaption": "",
+            "xAxisName": "",
+            "yAxisName": "",
+            "numberSuffix": "",
+            "theme": "fusion"
+        },
+
+        "data": [{
+            "label": "Jan",
+            "value": "20"
+        }, {
+            "label": "Feb",
+            "value": "70"
+        }, {
+            "label": "Mar",
+            "value": "50"
+        }, {
+            "label": "Apr",
+            "value": "100"
+        }, {
+            "label": "May",
+            "value": "15"
+        }, {
+            "label": "Jun",
+            "value": "100"
+        }]
+        
+    },
 };
 
 //Your react component
@@ -21,8 +53,30 @@ class Chart extends React.Component {
   render() {
     return (
       <div>
+        <div className="row my-3">
+            <div className="col-md-7">
+                <div className="d-flex align-items-center">
+                    <h5 style={{ fontSize: "0.87rem"}}> Today: 5, Aug 2018 </h5>
+                </div>
+            </div>
+            <div className="col-md-5">
+                <div className="row">
+                    <div className="col-md-6">
+                        <select className="browser-default custom-select"> 
+                            <option value='1'> Jan 1 - Jun 1 </option>
+                            <option value='2'> Jun 1 - Jun 2 </option>
+                        </select>
+                    </div>
+                    <div className="col-md-6">
+                        <div className="button-control">
+                            <button class="btn previous-tab"><i class="fas fa-angle-left"></i></button>
+                            <button class="btn next-tab"><i class="fas fa-angle-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <ReactFC {...chartConfigs} />
-        
       </div>
     );
   }
