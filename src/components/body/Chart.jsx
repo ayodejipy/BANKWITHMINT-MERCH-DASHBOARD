@@ -10,8 +10,7 @@ ReactFC.fcRoot(FusionCharts, Column2D, FusionTheme);
 const chartConfigs = {
     type: 'area2d',// The chart type
     width: '100%', // Width of the chart
-    height: '100%', // Height of the chart
-    showlabels: "0",
+    height: '60%', // Height of the chart
     dataFormat: 'json', // Data type
     dataSource: {
    
@@ -21,7 +20,10 @@ const chartConfigs = {
             "xAxisName": "",
             "yAxisName": "",
             "numberSuffix": "",
-            "theme": "fusion"
+            "theme": "fusion",
+            "showlabels": "0",
+            "chartBottomMargin": "2",
+            "chartLeftMargin": "0"
         },
 
         "data": [{
@@ -61,13 +63,13 @@ class Chart extends React.Component {
             </div>
             <div className="col-md-5">
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-6">
                         <select className="browser-default custom-select"> 
                             <option value='1'> Jan 1 - Jun 1 </option>
                             <option value='2'> Jun 1 - Jun 2 </option>
                         </select>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-6">
                         <div className="button-control">
                             <button class="btn previous-tab"><i class="fas fa-angle-left"></i></button>
                             <button class="btn next-tab"><i class="fas fa-angle-right"></i></button>

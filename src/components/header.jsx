@@ -22,7 +22,7 @@ class header extends Component {
         return (
             <>
                 <Router>
-                    <MDBNavbar color="white" expand="md" fixed="top">
+                    <MDBNavbar color="white" expand="md">
                         <MDBNavbarBrand style={{ width: "12.88rem" }}>
                             <strong className="blue-text font-weight-bold">TransMonitor</strong>
                         </MDBNavbarBrand>

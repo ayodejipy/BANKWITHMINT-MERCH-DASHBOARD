@@ -9,14 +9,14 @@ class mainDash extends Component {
         return (
             <>
                 <div className="container-fluid">
-                    <div className="row my-4">
-                        <Col heading={"Daily Transaction Volume"} value={"4000"} />
+                    <div className="row my-4 stats-tab">
+                        <Col heading={"Daily Transaction Volume"} value={"2,342"} />
                         <Col heading={"Daily Transaction Value"} value={"4,000,000"} />
                         <Col heading={"Total Transaction Volume"} value={"452,000"} />
                         <Col heading={"Total Transaction Value"} value={"4,000,000"} />
                     </div>
 
-                    <div className="row my-4 h-100">
+                    <div className="row my-4 ml-0 h-100">
                         <div className="col-md-8 bg-white"> 
                             <Chart />
                         </div>
@@ -44,7 +44,7 @@ class mainDash extends Component {
 
                     <div className="row my-4">
                         <div className="col-sm-12">
-                            <h2 className="my-2">Payments</h2>
+                            <h3 className="my-4">Payments</h3>
                             <DataTable />
                         </div>
                     </div>

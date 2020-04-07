@@ -11,7 +11,7 @@ class sidebar extends Component {
     render() {
         return (
             <>
-                <div className="cta--btn">
+                <div className="d-flex justify-content-center align-items-center cta--btn">
                     <button className="gen-invoice">GENERATE INVOICE</button>
                 </div>
 
@@ -19,7 +19,7 @@ class sidebar extends Component {
                     <div className="sub-links">
                         <label>Main</label>
                         <ul className="quick--link-list">
-                            <li>
+                            <li className="active">
                                 <Img src={overview} desc={"Dashboard"} className={"quick--link-icon"} />
                                 <a href="http://google.com">Overview</a>
                             </li>
