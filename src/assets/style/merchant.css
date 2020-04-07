@@ -384,8 +384,8 @@ label.filterDropDown {
     color: #495057;
     vertical-align: middle;
     background: url('../illustrations/select.svg') no-repeat right .75rem center/8px 10px !important;
-    border: none !important;
-    border-bottom: 1px solid #ced4da;
+    border: 0 !important;
+    border-bottom: 1px solid #a4a5a7 !important;
     border-radius: 0 !important;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -409,7 +409,7 @@ input[type=search].form-control {
     background-color: transparent !important;
     background-clip: padding-box;
     border: none;
-    border-bottom: 1px solid #495057 !important;
+    border-bottom: 1px solid #a4a5a7 !important;
     border-radius: 0 !important;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     -webkit-border-radius: 0 !important;

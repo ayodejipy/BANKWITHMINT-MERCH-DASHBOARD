@@ -43,141 +43,450 @@ class datatable extends Component {
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-success"> <i class="fas fa-circle mr-2"></i> Settled</span>
+                    status: 'Settled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-grey"> <i class="fas fa-circle mr-2"></i> Un-reconsiled</span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-success"> <i class="fas fa-circle mr-2"></i> Reconcilled </span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-success"> <i class="fas fa-circle mr-2"></i> Reconcilled</span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-success"> <i class="fas fa-circle mr-2"></i> Reconcilled</span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-warning"> <i class="fas fa-circle mr-2"></i> Pending</span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-success"> <i class="fas fa-circle mr-2"></i> Reconcilled</span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-warning"> <i class="fas fa-circle mr-2"></i> Pending</span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-success"> <i class="fas fa-circle mr-2"></i> Reconcilled</span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-success"> <i class="fas fa-circle mr-2"></i> Reconcilled</span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-warning"> <i class="fas fa-circle mr-2"></i> Pending</span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-success"> <i class="fas fa-circle mr-2"></i> Reconcilled</span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-success"> <i class="fas fa-circle mr-2"></i> Reconcilled</span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-warning"> <i class="fas fa-circle mr-2"></i> Pending</span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status"> <i class="fas fa-circle mr-2"></i> Un-reconcilled</span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-warning"> <i class="fas fa-circle mr-2"></i> Pending</span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status"> <i class="fas fa-circle mr-2"></i> Un-reconcilled</span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-warning"> <i class="fas fa-circle mr-2"></i> Pending</span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-success"> <i class="fas fa-circle mr-2"></i> Reconcilled</span>
+                    status: 'Reconcilled'
                 },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Unsettled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Unsettled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Unsettled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Unsettled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Unsettled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Unsettled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Unsettled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Unsettled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Unsettled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Unsettled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Un-reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Un-reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Un-reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Un-reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Un-reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                
             ],
             status: [ 
                 {id: "1", value: "All"}, 
                 {id: "2", value: "Reconcilled" }, 
                 {id: "3", value: "Un-reconcilled" }, 
-                {id: "4", value: "Reconcilled" }, 
-                {id: "5", value: "UnReconcilled" },
+                {id: "4", value: "Settled" }, 
+                {id: "5", value: "Unsettled" },
                 {id: "6", value: "Pending" },
             ],
             selectedValue: '',
@@ -187,134 +496,443 @@ class datatable extends Component {
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-success"> <i class="fas fa-circle mr-2"></i> Settled</span>
+                    status: 'Settled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-grey"> <i class="fas fa-circle mr-2"></i> Un-reconsiled</span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-success"> <i class="fas fa-circle mr-2"></i> Reconcilled </span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-success"> <i class="fas fa-circle mr-2"></i> Reconcilled</span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-success"> <i class="fas fa-circle mr-2"></i> Reconcilled</span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-warning"> <i class="fas fa-circle mr-2"></i> Pending</span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-success"> <i class="fas fa-circle mr-2"></i> Reconcilled</span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-warning"> <i class="fas fa-circle mr-2"></i> Pending</span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-success"> <i class="fas fa-circle mr-2"></i> Reconcilled</span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-success"> <i class="fas fa-circle mr-2"></i> Reconcilled</span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-warning"> <i class="fas fa-circle mr-2"></i> Pending</span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-success"> <i class="fas fa-circle mr-2"></i> Reconcilled</span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-success"> <i class="fas fa-circle mr-2"></i> Reconcilled</span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-warning"> <i class="fas fa-circle mr-2"></i> Pending</span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status"> <i class="fas fa-circle mr-2"></i> Un-reconcilled</span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-warning"> <i class="fas fa-circle mr-2"></i> Pending</span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status"> <i class="fas fa-circle mr-2"></i> Un-reconcilled</span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-warning"> <i class="fas fa-circle mr-2"></i> Pending</span>
+                    status: 'Reconcilled'
                 },
                 {
                     item: 'Apple Mac Book 15" 250 SSD 12GB',
                     price: '$734590',
                     transaction: '1234567890',
                     time: '12:30',
-                    status: <span className="status text-success"> <i class="fas fa-circle mr-2"></i> Reconcilled</span>
+                    status: 'Reconcilled'
                 },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Unsettled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Unsettled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Unsettled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Unsettled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Unsettled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Unsettled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Unsettled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Unsettled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Unsettled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Unsettled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Un-reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Un-reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Un-reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Un-reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Un-reconcilled'
+                },
+                {
+                    item: 'Apple Mac Book 15" 250 SSD 12GB',
+                    price: '$734590',
+                    transaction: '1234567890',
+                    time: '12:30',
+                    status: 'Reconcilled'
+                },
+                
             ]
         };
     }
@@ -345,7 +963,7 @@ class datatable extends Component {
                     <label> Show  
                         {/* <select className="custom-select custom-select-sm form-control form-control-sm"> */}
                         <select 
-                        className="browser-default w-50 custom-select filtered" 
+                        className="browser-default w-75 custom-select filtered" 
                         defaultValue={this.state.value}
                         onChange={this.filterRecord}
                         style={{ marginLeft: "0.5rem"}}>
