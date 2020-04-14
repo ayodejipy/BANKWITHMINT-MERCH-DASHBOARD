@@ -13,28 +13,28 @@ class datatable extends Component {
                     width: 150
                 },
                 {
-                label: 'Price',
-                field: 'price',
-                sort: 'asc',
-                width: 270
+                    label: 'Price',
+                    field: 'price',
+                    sort: 'asc',
+                    width: 270
                 },
                 {
-                label: 'Transaction No',
-                field: 'transaction',
-                sort: 'asc',
-                width: 200
+                    label: 'Transaction No',
+                    field: 'transaction',
+                    sort: 'asc',
+                    width: 200
                 },
                 {
-                label: 'Time',
-                field: 'time',
-                sort: 'asc',
-                width: 150
+                    label: 'Time',
+                    field: 'time',
+                    sort: 'asc',
+                    width: 150
                 },
                 {
-                label: 'Status',
-                field: 'status',
-                sort: 'asc',
-                width: 100
+                    label: 'Status',
+                    field: 'status',
+                    sort: 'asc',
+                    width: 100
                 }
             ],
             rows: [
@@ -939,11 +939,15 @@ class datatable extends Component {
     
     filterRecord = (e) => {
         let { value } = e.target;
-        // console.log(value);
+
+        alert((value.toString()).toLowerCase())
 
         if (value !== "All") {
-            var filteredRecord = this.state.Records.filter(record => record.status.toLowerCase() === value.toLowerCase());
-            this.setState({ rows: filteredRecord});
+            console.log(value)
+
+            var filteredRecord = this.state.Records.filter(record => (record.status.toString()).toLowerCase() === (value.toString()).toLowerCase() );
+            var LabeledRecord = this.AddLabel(filteredRecord);
+            this.setState({ rows: LabeledRecord });
         } else {
             this.setState({rows: this.state.Records});
         }
@@ -953,10 +957,32 @@ class datatable extends Component {
         // console.log(this.state.rows);
     };
 
+    componentDidMount() {
+        var Records = this.state.Records;
+        var LabeledRecord = this.AddLabel(Records);
+        this.setState({ rows: LabeledRecord });
+    }
+
+    AddLabel(records){
+        records.forEach(element => {
+
+            if( element.status === "Reconcilled" || element.status === "Settled" ) {
+                element.status = <div className="status text-success" value={element.status}> <i className="fas fa-circle "></i> {element.status} </div>
+            }
+            else if(element.status === "Pending" ) {
+                element.status = <div className="status text-warning" value={element.status}> <i className="fas fa-circle "></i> {element.status} </div>
+            }
+            else {
+                element.status = <div className="status" value={element.status}> <i className="fas fa-circle "></i> {element.status} </div>
+            }
+        });
+        return records;
+    }
+
+    
 
     render() {
-        // const { data } = this.props;
-        // console.log(data);
+
         return (
             <>
                 <div data-test="datatable-select" className="dataTables_length bs-select">

@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import ReactFC from 'react-fusioncharts';
 import FusionCharts from 'fusioncharts';
 import Column2D from 'fusioncharts/fusioncharts.charts';
@@ -21,7 +20,7 @@ const chartConfigs = {
             "yAxisName": "",
             "numberSuffix": "",
             "theme": "fusion",
-            "showlabels": "0",
+            "showlabels": "1",
             "chartBottomMargin": "2",
             "chartLeftMargin": "0"
         },
@@ -71,8 +70,8 @@ class Chart extends React.Component {
                     </div>
                     <div className="col-6">
                         <div className="button-control">
-                            <button class="btn previous-tab"><i class="fas fa-angle-left"></i></button>
-                            <button class="btn next-tab"><i class="fas fa-angle-right"></i></button>
+                            <button className="btn previous-tab"><i className="fas fa-angle-left"></i></button>
+                            <button className="btn next-tab"><i className="fas fa-angle-right"></i></button>
                         </div>
                     </div>
                 </div>

@@ -422,13 +422,13 @@ span.status .fas {
     line-height: 0;
 }
 
-span.status {
+.status {
     position: relative;
     background: transparent;
     color: #ccc;
     border: 1px solid #ccc;
     padding: 0.4rem 1.6rem;
-    width: 300px;
+    width: 150px;
     border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
@@ -436,10 +436,11 @@ span.status {
     -o-border-radius: 30px;
 }
 
-span > i {
-    font-size: 10px;
+.status > i {
+    font-size: 8px;
     vertical-align: middle;
     line-height: 0 !important;
+    margin-right: 4px;
 }
 
 

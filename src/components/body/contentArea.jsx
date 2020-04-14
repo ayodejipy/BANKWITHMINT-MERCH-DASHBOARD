@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Col from "../Col";
 import DataTable from "./datatable";
+// import BSDataTable from "./BSDataTable";
 import Progress from "../progressBar";
 import Chart from "./Chart";
 
