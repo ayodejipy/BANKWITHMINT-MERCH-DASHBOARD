@@ -425,10 +425,10 @@ span.status .fas {
 .status {
     position: relative;
     background: transparent;
-    color: #ccc;
+    color: #7F8FA4;
     border: 1px solid #ccc;
     padding: 0.4rem 1.6rem;
-    width: 150px;
+    width: 164px;
     border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
